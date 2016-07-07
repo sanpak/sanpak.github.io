@@ -1,0 +1,151 @@
+/*Box Model Hack
+*/
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/*SETUP*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  margin: 0 auto;
+ 
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  /*overflow: auto; DONT NEED IT*/
+}
+
+/*LAYOUT*/
+
+header {
+  background: url("../images/header.jpg");
+  margin: 0 auto;
+  width: 100%;
+  height: 5em;
+  background-color: black;
+}
+
+.center-column {
+  width: 50%;
+  margin: auto;
+  margin-top: 2em;
+  height: 10em;
+  overflow: auto;
+}
+
+.center-button {
+  width: 50%;
+  margin: auto;
+  height: 10em;
+  overflow: auto;
+  text-align: right;
+}
+
+.navbar-default {
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 0;
+
+}
+
+.form-control {
+  height: 70px;
+}
+
+
+/*STYLE*/
+
+/*.table {
+  display: none;
+}*/
+
+::-webkit-input-placeholder {
+  
+  font-weight: 100;
+ font-size: 150%;
+ color: #d0cdfa;
+ text-transform: uppercase;
+ text-transform: uppercase;
+ text-align: center;
+ 
+}
+:-moz-placeholder { /* older Firefox*/
+ 
+  font-weight: 100;
+ font-size: 150%;
+ color: #d0cdfa;
+ text-transform: uppercase;
+ text-align: center;
+ 
+}
+::-moz-placeholder { /* Firefox 19+ */ 
+  
+  font-weight: 100;
+ font-size: 150%;
+ color: #d0cdfa; 
+ text-transform: uppercase;
+ text-align: center;
+ 
+} 
+:-ms-input-placeholder { 
+  
+  font-weight: 100;
+ font-size: 150%; 
+ color: #d0cdfa;
+ text-transform: uppercase;
+ text-align: center;
+ 
+}
+
+h1 {
+  font-weight: 100;
+  margin: 0;
+  color: white;
+  padding-top: 0.3em;
+  padding-left: 1em;
+  font-size: 3em;
+}
+
+/*HOVER ANIMATION*/
+/*a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+a:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  background: currentColor;
+  opacity: 0;
+  -webkit-transition: opacity 220ms ease-in-out, width 244ms ease-in-out;
+  transition: opacity 220ms ease-in-out, width 244ms ease-in-out;
+}
+
+a:hover:before {
+  opacity: 1;
+  width: 100%;
+}*/
+
+/*.slideDown{
+  top: 2em;
+  right: 0em;
+  position: absolute;
+  z-index: 300;
+  background-color: black;
+  height:20em;
+}*/
