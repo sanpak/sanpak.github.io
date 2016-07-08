@@ -46,6 +46,7 @@ $(function(){
       url: url,
       type: "GET",
       dataType: 'jsonp',
+      crossDomain: true,
       data: {spot_id: spot},
       success: function(data){
         return data;
