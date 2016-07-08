@@ -38,7 +38,7 @@ $(function(){
 
 
   function search(spot){
-    var url = "http://magicseaweed.com/api/4dfeb637ee8710a15153a9d9a188dab1/forecast/";
+    var url = "https://magicseaweed.com/api/4dfeb637ee8710a15153a9d9a188dab1/forecast/";
 
     // Makes an API request to the itunes server with a request for data using the search term
     // This uses jQuery's .ajax function
