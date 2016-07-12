@@ -29,6 +29,10 @@ body {
 
 /*LAYOUT*/
 
+header h1 {
+    font-size: 3em;
+}
+
 header {
   background: url("../images/header.jpg");
   margin: 0 auto;
@@ -109,6 +113,10 @@ header {
  
 }
 
+button {
+  margin-top: 1em;
+}
+
 h1 {
   font-weight: 100;
   margin: 0;
@@ -116,6 +124,197 @@ h1 {
   padding-top: 0.3em;
   padding-left: 1em;
   font-size: 3em;
+}
+
+h2 {
+  font-weight: 300;
+  margin: 0;
+  color: #2b9230;
+  padding-top: 0.3em;
+  padding-left: 1em;
+  font-size: 3em;
+}
+
+h3 {
+  font-weight: 100;
+  margin-bottom: 1em;
+  color: #2b9230;
+  padding-left: 1.5em;
+  font-size: 2em;
+}
+
+table {
+  font-weight: 400;
+
+}
+
+#spotInfo {
+  display: none;
+}
+
+/*#spotInCounty {
+  display: none;
+}*/
+
+
+/* Media Queries */
+@media only screen and (max-width: 480px) {
+
+  header h1 {
+    padding-top: 0.9em;
+    font-size: 1.5em;
+  }
+
+  .form-control {
+    margin: 0 auto;
+    height: 50px;
+    width: 90%;
+  }
+
+  ::-webkit-input-placeholder {
+    
+    font-weight: 100;
+   font-size: 80%;
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-transform: uppercase;
+   text-align: center;
+   
+  }
+  :-moz-placeholder { /* older Firefox*/
+   
+    font-weight: 100;
+   font-size: 80%;
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-align: center;
+   
+  }
+  ::-moz-placeholder { /* Firefox 19+ */ 
+    
+    font-weight: 100;
+   font-size: 80%;
+   color: #d0cdfa; 
+   text-transform: uppercase;
+   text-align: center;
+   
+  } 
+  :-ms-input-placeholder { 
+    
+    font-weight: 100;
+   font-size: 80%; 
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-align: center;
+   
+  }
+  
+}
+
+@media only screen and (min-width: 480px) and (max-width: 680px) {
+
+  header h1 {
+    padding-top: 1em;
+    font-size: 1.5em;
+  }
+
+  .form-control {
+    margin: 0 auto;
+    height: 50px;
+    width: 90%;
+  }
+
+  ::-webkit-input-placeholder {
+    
+    font-weight: 100;
+   font-size: 80%;
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-transform: uppercase;
+   text-align: center;
+   
+  }
+  :-moz-placeholder { /* older Firefox*/
+   
+    font-weight: 100;
+   font-size: 80%;
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-align: center;
+   
+  }
+  ::-moz-placeholder { /* Firefox 19+ */ 
+    
+    font-weight: 100;
+   font-size: 80%;
+   color: #d0cdfa; 
+   text-transform: uppercase;
+   text-align: center;
+   
+  } 
+  :-ms-input-placeholder { 
+    
+    font-weight: 100;
+   font-size: 80%; 
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-align: center;
+   
+  }
+
+}
+
+@media only screen and (min-width: 680px) and (max-width: 980px) {
+
+  header h1 {
+    padding-top: 0.8em;
+    font-size: 2em;
+  }
+
+  .form-control {
+    margin: 0 auto;
+    height: 50px;
+    width: 90%;
+  }
+
+  ::-webkit-input-placeholder {
+    
+    font-weight: 100;
+   font-size: 80%;
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-transform: uppercase;
+   text-align: center;
+   
+  }
+  :-moz-placeholder { /* older Firefox*/
+   
+    font-weight: 100;
+   font-size: 80%;
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-align: center;
+   
+  }
+  ::-moz-placeholder { /* Firefox 19+ */ 
+    
+    font-weight: 100;
+   font-size: 80%;
+   color: #d0cdfa; 
+   text-transform: uppercase;
+   text-align: center;
+   
+  } 
+  :-ms-input-placeholder { 
+    
+    font-weight: 100;
+   font-size: 80%; 
+   color: #d0cdfa;
+   text-transform: uppercase;
+   text-align: center;
+   
+  }
+
 }
 
 /*HOVER ANIMATION*/

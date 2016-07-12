@@ -17,7 +17,7 @@
 
   <div class="container">
     <header>
-      <h1>Surfoogle</h1>
+      <h1>Surfoogle // Weather forecast for surfers</h1>
     </header>
      
      <nav class="navbar navbar-default">
@@ -64,7 +64,7 @@
            </ul>
            
            <ul class="nav navbar-nav navbar-right">
-             <li><a href="#">Link</a></li>
+             <!-- <li><a href="#">Link</a></li> -->
              
            </ul>
          </div><!-- /.navbar-collapse -->
@@ -78,9 +78,8 @@
 
           <form id="location-search">
 
-            <input type="text" class="form-control" rows="3" id="surf-spot" placeholder="search for surf spot near you" />
-            <button class="btn btn-info" value="Search">Search</button>
-
+            <input type="text" class="form-control" rows="3" id="surf-spot" placeholder="search for surf weather" />
+            
           </form>
 
         </div>
@@ -88,15 +87,25 @@
 
 
       <div>
-        <table class="table table-striped" >
+
+        <h2 id="results-header">
+
+        </h2>
+
+        <h3 id="results-header2">
+
+        </h3>
+
+      
+
+        <table class="table table-striped" id="spotInfo">
           <thead>
             <tr>
+               <th>Date</th>
               <th>Time</th>
-              <th>Wind Speed</th>
-              <th>Fade Rating</th>
-              <th>Solid Rating</th>
-              <th>Tempurature</th>
-              <th>Wind</th>
+              <th>Swell Condition</th>
+              <th>Wide</th>
+              
             </tr>
           </thead>
           <tbody id="results-table">
